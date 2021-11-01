@@ -63,7 +63,7 @@ some commands that can use in repl.
       <td>cb('server.js', 21)</td>
     </tr>
     <tr>
-      <td>exec <strong>expression</strong></td>
+      <td>exec</td>
       <td>show variable content</td>
       <td>exec body</td>
     </tr>
