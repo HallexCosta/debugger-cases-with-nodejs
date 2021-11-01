@@ -1,5 +1,8 @@
 ## Node.js Debug
 
+This repository was created with the aim of helping developers to use the debbuger concept in Node.js.
+Kill `console.log` 😠
+
 ### Pre knowledge
 
 What's REPL?
@@ -22,18 +25,18 @@ The debugs cases are defined in 3 categories
 
 3. Debug in Environment Local
 3. Debug in Environment Remote
-3. Debug in Environment Remote Production
+3. Debug in Environment Remote Production with REPL
 
 > CAUTION: The third case is the chaotic case. Hope you never need to use it 😀.
 
 ### Node REPL Commands
 
-ATTENTIONS: commands in "<>" is symbolic expression.
+some commands that can use in repl.
 
 ------------------------------------------
 command | how it works? | how to use?
 list(<numberOfLines>)       | show as first 100 lines  | list*(100)|
-c       | continue the current flow | c<Enter>|
+c       | continue the current flow | c|
 sb(<numberOfLine>)   | set/create new breakpoint | sb(21)
 cb(<currentFile>, <numberOfLine>)   | unset/delete breakpoint | cb('server.js', 21)
 exec <expression|variableName>   | show variable content | exec body
