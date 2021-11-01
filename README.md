@@ -1,6 +1,6 @@
 ## Node.js Debug
 
-This repository was created with the aim of helping developers to use the debbuger concept in Node.js.
+This repository was created with the aim of helping developers to use the debbuger concept in Node.js.  
 Kill `console.log` 😠
 
 ### Pre knowledge
