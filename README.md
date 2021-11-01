@@ -43,17 +43,7 @@ some commands that can use in repl.
 
   <tbody>
     <tr>
-      <td>list(\<numberOfLines\>)</td>
-      <td>show as first 100 lines</td>
-      <td>list(100)</td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>list(<numberOfLines>)</td>
+      <td>list()</td>
       <td>show as first 100 lines</td>
       <td>list(100)</td>
     </tr>
@@ -63,22 +53,22 @@ some commands that can use in repl.
       <td>c</td>
     </tr>
     <tr>
-      <td>sb(<numberOfLine>)</td>
+      <td>sb()</td>
       <td>set/create new breakpoint</td>
       <td>sb(21)</td>
     </tr>
     <tr>
-      <td>cb(<currentFile>, <numberOfLine>)</td>
+      <td>cb()</td>
       <td>unset/delete breakpoint</td>
       <td>cb('server.js', 21)</td>
     </tr>
     <tr>
-      <td>exec <expression|variableName></td>
+      <td>exec <strong>expression</strong></td>
       <td>show variable content</td>
       <td>exec body</td>
     </tr>
     <tr>
-      <td>reload</td>
+      <td>r</td>
       <td>reload debug server</td>
       <td>r</td>
     </tr>
@@ -93,7 +83,7 @@ some commands that can use in repl.
       <td>out</td>
     </tr>
     <tr>
-      <td>watch(<variableName>) </td>
+      <td>watch() </td>
       <td>listen and observe a variable</td>
       <td>watch('counter') | watch('counter > 2')</td>
     </tr>
