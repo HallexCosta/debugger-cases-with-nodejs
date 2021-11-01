@@ -5,7 +5,7 @@ Kill `console.log` 😠
 
 ### Pre knowledge
 
-What's REPL?
+What's REPL?  
 REPL is a debugger that comes native to Node.js
 
 ### Debug Forms
