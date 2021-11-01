@@ -79,7 +79,7 @@ some commands that can use in repl.
     </tr>
     <tr>
       <td>out</td>
-      <td>go back external call</td>
+      <td>back breakpoint context</td>
       <td>out</td>
     </tr>
     <tr>
