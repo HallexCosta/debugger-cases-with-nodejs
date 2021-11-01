@@ -5,27 +5,27 @@ Kill `console.log` 😠
 
 ### Pre knowledge
 
-What's REPL?  
+**What's REPL?**  
 REPL is a debugger that comes native to Node.js
 
 ### Debug Forms
 
-The forms of work with debugger with node.js is with 
+The forms of work with debugger with Node.js
 
-1. Debug with REPL
-2. Debug with Browser
-3. Debug with VSCode in Environment Local
-4. Debug with Docker
-5. Debug with VSCode + Docker
-6. Debug with VSCode in Environment Remote
+1. Debug with REPL.
+2. Debug with Browser.
+3. Debug with VSCode in Environment Local.
+4. Debug with Docker.
+5. Debug with VSCode + Docker.
+6. Debug with VSCode in Environment Remote.
 
 ### Debug Cases
 
-The debugs cases are defined in 3 categories
+The debugs cases are defined in 3 categories:
 
-3. Debug in Environment Local
-3. Debug in Environment Remote
-3. Debug in Environment Remote Production with REPL
+3. Debug in Environment Local.
+3. Debug in Environment Remote.
+3. Debug in Environment Remote Production with REPL.
 
 > CAUTION: The third case is the chaotic case. Hope you never need to use it 😀.
 
