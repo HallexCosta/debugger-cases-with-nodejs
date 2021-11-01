@@ -43,7 +43,7 @@ some commands that can use in repl.
 
   <tbody>
     <tr>
-      <td>list(<numberOfLines>)</td>
+      <td>list(\<numberOfLines\>)</td>
       <td>show as first 100 lines</td>
       <td>list(100)</td>
     </tr>
