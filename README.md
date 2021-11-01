@@ -34,16 +34,79 @@ The debugs cases are defined in 3 categories
 some commands that can use in repl.
 
 ------------------------------------------
-command | how it works? | how to use?
-list(<numberOfLines>)       | show as first 100 lines  | list*(100)|
-c       | continue the current flow | c|
-sb(<numberOfLine>)   | set/create new breakpoint | sb(21)
-cb(<currentFile>, <numberOfLine>)   | unset/delete breakpoint | cb('server.js', 21)
-exec <expression|variableName>   | show variable content | exec body
-r   | reload debug server | r
-step   | access breakpoint context | r
-out   | go back external call | out
-watch(<variableName>)  | listen and observe a variable  | watch('counter') | watch('counter > 2')
-repl  | inject code in file context | repl 
-.save  | save session | .save session.txt
-------------------------------------------
+<table>
+  <thead>
+    <th>Command</th>
+    <th>How it works?</th>
+    <th>How to use</th>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>list(<numberOfLines>)</td>
+      <td>show as first 100 lines</td>
+      <td>list(100)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>list(<numberOfLines>)</td>
+      <td>show as first 100 lines</td>
+      <td>list(100)</td>
+    </tr>
+    <tr>
+      <td>continue</td>
+      <td>continue the current flow</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <td>sb(<numberOfLine>)</td>
+      <td>set/create new breakpoint</td>
+      <td>sb(21)</td>
+    </tr>
+    <tr>
+      <td>cb(<currentFile>, <numberOfLine>)</td>
+      <td>unset/delete breakpoint</td>
+      <td>cb('server.js', 21)</td>
+    </tr>
+    <tr>
+      <td>exec <expression|variableName></td>
+      <td>show variable content</td>
+      <td>exec body</td>
+    </tr>
+    <tr>
+      <td>reload</td>
+      <td>reload debug server</td>
+      <td>r</td>
+    </tr>
+    <tr>
+      <td>step</td>
+      <td>access breakpoint context</td>
+      <td>step</td>
+    </tr>
+    <tr>
+      <td>out</td>
+      <td>go back external call</td>
+      <td>out</td>
+    </tr>
+    <tr>
+      <td>watch(<variableName>) </td>
+      <td>listen and observe a variable</td>
+      <td>watch('counter') | watch('counter > 2')</td>
+    </tr>
+    <tr>
+      <td>repl</td>
+      <td>inject code in file context</td>
+      <td>repl</td>
+    </tr>
+    <tr>
+      <td>.save</td>
+      <td>save session</td>
+      <td>.save session.txt</td>
+    </tr>
+  </tbody>
+</table>
+
