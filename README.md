@@ -90,7 +90,7 @@ some commands that can use in repl.
     <tr>
       <td>repl</td>
       <td>inject code in file context</td>
-      <td>repl</td>
+      <td>repl for (let i = 0; i > 10; i++) { console.log(i); }</td>
     </tr>
     <tr>
       <td>.save</td>
